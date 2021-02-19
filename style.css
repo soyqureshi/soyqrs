@@ -291,3 +291,44 @@ main {
         float: none;
     }
 }
+
+@media (max-width: 320px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .namelogo {
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .hello {
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .sq {
+        font-size: 1.5em;
+    }
+    .web {
+        font-size: .5em;
+    }
+    #hire {
+        width: 45%;
+        padding: .2em;
+        font-size: .4em;
+        margin-bottom: 50px;
+    }
+    #hire:hover {
+        background-color: #e5ff00ab;
+    }
+    .icon {
+        position: absolute;
+        left: 0;
+    }
+    .me {
+        width: 100%;
+        float: none;
+    }
+
+
+}
